@@ -10,6 +10,8 @@ Deterioro Cognitivo Leve (DCL) es una etapa intermedia entre los cambios cogniti
 
 El DCL es clínicamente relevante porque representa un factor de riesgo elevado para progresar a demencia (aproximadamente 10–15% anual, frente al 1–2% de la población general de la misma edad), aunque también puede mantenerse estable o incluso revertirse en algunos casos.
 
+El uso de clasificadores permite transformar características no lineales y fractales en decisiones clínicamente interpretables (control vs. DCL), evaluar el poder real de separación entre grupos, y sentar las bases para futuras herramientas de apoyo diagnóstico, todo ello sin depender exclusivamente de pruebas estadísticas convencionales
+
 # Instrucciones para replicar resultados
 
 > [!WARNING]
