@@ -1,0 +1,39 @@
+# Archivos auxiliares de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+
+# Archivos de dependencias
+*.bcf
+*.run.xml
+
+# Archivos temporales y de respaldo
+*.bak
+*.swp
+*~
+*.DS_Store
+
+# ¡Opcional! Si quieres excluir el PDF generado (recomendado para proyectos compartidos)
+*.pdf
+
+# Excepción: si usas figuras en PDF, evita que se ignoren
+!*.pdf
