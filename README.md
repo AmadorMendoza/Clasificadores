@@ -1,6 +1,12 @@
-#Clasificadores KNN y Random Forest para detectar Deterioro Cognitivo Leve (DCL)
+# Clasificadores KNN y Random Forest para detectar Deterioro Cognitivo Leve (DCL)
 
+Deterioro Cognitivo Leve (DCL) es una etapa intermedia entre los cambios cognitivos esperados del envejecimiento normal y el declive más grave asociado a demencias como la enfermedad de Alzheimer. Se caracteriza por:
 
+- Déficits medibles en una o más funciones cognitivas (memoria, lenguaje, atención, función ejecutiva, etc.).
+- Preservación de la independencia funcional en las actividades de la vida diaria (la persona aún puede valerse por sí misma).
+-  No cumple criterios de demencia, pues los deterioros no son lo suficientemente graves como para interferir significativamente con la autonomía.
+
+El DCL es clínicamente relevante porque representa un factor de riesgo elevado para progresar a demencia (aproximadamente 10–15% anual, frente al 1–2% de la población general de la misma edad), aunque también puede mantenerse estable o incluso revertirse en algunos casos.
 
 # Instrucciones para replicar resultados
 
