@@ -1,3 +1,3 @@
 # Instrucciones para replicar resultados
 
-El archivo [clasificadores](clasificadores.ipynb)
+El archivo [clasificadores](Clasificadores.ipynb)
