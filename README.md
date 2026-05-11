@@ -1,3 +1,7 @@
+#Clasificadores KNN y Random Forest para detectar Deterioro Cognitivo Leve (DCL)
+
+
+
 # Instrucciones para replicar resultados
 
 > [!WARNING]
@@ -20,3 +24,5 @@ donde encontraran dos archivos comprimidos del tipo **.7z**, descomprimalos y as
 
 Si solo necesita trabajar con las metricas **SD1** y **SD2** que correcponden a la desviaci\`on a corto y largo plazo respectivamente 
 puede descargar la carpeta [sd1_sd2](sd1_sd2) en la cual encontrara los valores para cada desviaci\`on por nodo y correspondiente a cada sujeto.
+
+La carpeta [Reporte](Reporte) puede ignorarla si lo que busca solo son los archivos con los datos de los encefalogramas.
