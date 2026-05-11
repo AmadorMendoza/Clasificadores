@@ -1,0 +1,42 @@
+\section{Desviaci\`on estandar a largo y corto plazo}
+Cada intervalo $R - R$ representa el tiempo entre latidos cardíacos consecutivos, y la secuencia de 
+estos intervalos puede analizarse como una serie temporal con propiedades dinámicas \cite{Tayel2015}:
+
+\[
+R_1, R_2, R_3, \ldots, R_n
+\]
+
+donde cada $R_i$ corresponde al tiempo transcurrido entre el latido $i$ y el latido $i + 1$.
+
+A partir de esta serie pueden obtenerse medidas que caracterizan la variabilidad a corto y largo plazo.
+
+\subsection*{SD1 (variabilidad a corto plazo)}
+
+SD1 cuantifica la variabilidad rápida entre intervalos consecutivos, es decir, la variación instantánea 
+de un latido al siguiente \cite{RodriguezBenitez2016}. Se define como:
+
+\[
+\text{SD1} = \sqrt{\frac{1}{2} \, \sigma_{\Delta}^2}
+\tag{1}
+\]
+
+donde $\sigma_{\Delta}$ es la desviación estándar de las diferencias sucesivas $R_{n+1} - R_n$.
+
+Un valor alto de SD1 indica mayor variabilidad \textit{beat-to-beat}, asociada principalmente con la actividad 
+parasimpática del sistema nervioso autónomo \cite{Almirall1995, Jimenez2020}.
+
+\subsection*{SD2 (variabilidad a largo plazo)}
+
+SD2 refleja la variabilidad global de la serie temporal, capturando fluctuaciones de mayor escala temporal 
+\cite{RodriguezBenitez2016}. Se calcula como:
+
+\[
+\text{SD2} = \sqrt{2\sigma^2 - \text{SD1}^2}
+\tag{2}
+\]
+
+donde $\sigma$ es la desviación estándar total de la serie $R_n$.
+
+Un valor alto de SD2 indica mayor variabilidad a largo plazo, relacionada con cambios emocionales, actividad 
+física o alteraciones del ritmo cardíaco \cite{Veloza2019}. Por el contrario, valores bajos pueden asociarse 
+con predominio simpático \cite{Jimenez2020}.

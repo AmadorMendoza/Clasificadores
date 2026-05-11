@@ -1,0 +1,25 @@
+\section{clasificador KNN}
+La clasificación por vecino más cercano representa uno de los enfoques más sencillos y, a la
+vez, eficaces del aprendizaje automático. A diferencia de los algoritmos que construyen modelos
+complejos durante el entrenamiento, los métodos de vecino más cercano adoptan un enfoque más
+directo para la clasificación. El proceso de entrenamiento de los clasificadores por vecino más cercano
+(también denominados «basados en instancias» o «basados en memoria») es notablemente sencillo:
+3 consiste simplemente en almacenar todos los ejemplos de entrenamiento en una estructura de
+datos adecuada para su posterior recuperación. Esto contrasta marcadamente con otros algoritmos
+de clasificación que crean modelos abstractos durante el entrenamiento. Lo que hace único al método
+del vecino más cercano es que pospone la mayor parte del trabajo computacional hasta el momento
+de la clasificación. Cuando un nuevo ejemplo necesita ser clasificado, el algoritmo identifica los
+k ejemplos de entrenamiento más similares a la nueva instancia; estos son sus «k vecinos más
+cercanos». A continuación, se determina la clase del nuevo ejemplo basándose en estos vecinos. El
+enfoque básico se limita a contar la clase mayoritaria entre los vecinos, pero las implementaciones
+más sofisticadas utilizan la ponderación por distancia. Con la ponderación por distancia, los vecinos
+físicamente más cercanos al ejemplo objetivo tienen mayor influencia en la decisión de clasificación.
+En nuestro ejemplo del correo electrónico, si el único vecino «no spam» estuviera mucho más
+cerca de nuestro nuevo correo electrónico que los dos vecinos «spam», un enfoque ponderado por
+distancia podría seguir clasificando el nuevo correo electrónico como «no spam». La selección del
+valor adecuado para k depende del contexto: no existe un número óptimo universal. Con k = 1,
+la clasificación se basa únicamente en el único ejemplo más cercano, lo que podría ser sensible al
+ruido. Con valores de k más altos, el algoritmo tiene en cuenta más vecinos, pero puede difuminar
+los límites entre clases. Para nuestro ejemplo del correo electrónico, un conjunto de datos muy
+pequeño podría funcionar mejor con k = 3, mientras que un conjunto de datos más grande podría
+beneficiarse de k = 15 o superior

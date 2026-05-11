@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducci\`on}{3}{section.1}%
+\contentsline {section}{\numberline {2}Estadistica descriptiva}{3}{section.2}%
+\contentsline {section}{\numberline {3}Clasidicador Random Forest}{4}{section.3}%
+\contentsline {section}{\numberline {4}clasificador KNN}{5}{section.4}%
+\contentsline {section}{\numberline {5}Desviaci\`on estandar a largo y corto plazo}{5}{section.5}%
+\contentsline {section}{\numberline {6}Resultados}{6}{section.6}%
